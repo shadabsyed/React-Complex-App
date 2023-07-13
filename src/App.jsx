@@ -1,9 +1,16 @@
 import "./index.css";
 
+// components
+import Header from "./components/Header";
+import HomeGuest from "./components/HomeGuest";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
-      <h1>hello!</h1>
+      <Header />
+      <HomeGuest />
+      <Footer />
     </>
   );
 }
